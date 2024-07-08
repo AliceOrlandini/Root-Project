@@ -1,0 +1,363 @@
+******************************************************************************
+*Tree    :ParticlesEvents: Data Reduction Events                             *
+*Entries :    48437 : Total =       158475466 bytes  File  Size =   54279204 *
+*        :          : Tree compression factor =   2.92                       *
+******************************************************************************
+*Branch  :Events                                                             *
+*Entries :    48437 : BranchElement (see below)                              *
+*............................................................................*
+*Br    0 :fUniqueID : UInt_t                                                 *
+*Entries :    48437 : Total  Size=     194775 bytes  File Size  =       1560 *
+*Baskets :        6 : Basket Size=      51200 bytes  Compression= 124.53     *
+*............................................................................*
+*Br    1 :fBits     : UInt_t                                                 *
+*Entries :    48437 : Total  Size=     389137 bytes  File Size  =      61265 *
+*Baskets :       12 : Basket Size=     264704 bytes  Compression=   6.34     *
+*............................................................................*
+*Br    2 :fEventInfo : EventInfo*                                            *
+*Entries :    48437 : Total  Size=    4272181 bytes  File Size  =    1041599 *
+*Baskets :       81 : Basket Size=     749568 bytes  Compression=   4.10     *
+*............................................................................*
+*Br    3 :fChargedParticleCandidates : vector<ChParticleCandidate*>          *
+*Entries :    48437 : Total  Size=  130839863 bytes  File Size  =   42424968 *
+*Baskets :     2282 : Basket Size=   25600000 bytes  Compression=   3.08     *
+*............................................................................*
+*Br    4 :fNeutralParticleCandidates : vector<NeParticleCandidate*>          *
+*Entries :    48437 : Total  Size=   22777767 bytes  File Size  =   10722589 *
+*Baskets :      472 : Basket Size=    3493888 bytes  Compression=   2.12     *
+*............................................................................*
+******************************************************************************
+*Tree    :Streams   : Streams                                                *
+*Entries :        1 : Total =           60187 bytes  File  Size =      16517 *
+*        :          : Tree compression factor =   1.07                       *
+******************************************************************************
+*Branch  :Stream                                                             *
+*Entries :        1 : BranchElement (see below)                              *
+*............................................................................*
+*Br    0 :fUniqueID : UInt_t                                                 *
+*Entries :        1 : Total  Size=        588 bytes  File Size  =         83 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    1 :fBits     : UInt_t                                                 *
+*Entries :        1 : Total  Size=        580 bytes  File Size  =         91 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    2 :fMCInfo   :                                                        *
+*Entries :        1 : Total  Size=      28706 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    3 :fMCInfo.fUniqueID : UInt_t                                         *
+*Entries :        1 : Total  Size=        628 bytes  File Size  =         91 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    4 :fMCInfo.fBits : UInt_t                                             *
+*Entries :        1 : Total  Size=        620 bytes  File Size  =         99 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    5 :fMCInfo.fRevision : TString                                        *
+*Entries :        1 : Total  Size=        637 bytes  File Size  =        100 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    6 :fMCInfo.fBeamType : Int_t                                          *
+*Entries :        1 : Total  Size=        628 bytes  File Size  =         91 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    7 :fMCInfo.fBeamParticleType : Int_t                                  *
+*Entries :        1 : Total  Size=        668 bytes  File Size  =         99 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    8 :fMCInfo.fForcedDecay : Int_t                                       *
+*Entries :        1 : Total  Size=        643 bytes  File Size  =         94 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    9 :fMCInfo.fForcedMuonDecay : Int_t                                   *
+*Entries :        1 : Total  Size=        663 bytes  File Size  =         98 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   10 :fMCInfo.fDecayType : Int_t                                         *
+*Entries :        1 : Total  Size=        633 bytes  File Size  =         92 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   11 :fMCInfo.fMuonDecayType : Int_t                                     *
+*Entries :        1 : Total  Size=        653 bytes  File Size  =         96 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   12 :fMCInfo.fRadCor : Int_t                                            *
+*Entries :        1 : Total  Size=        618 bytes  File Size  =         89 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   13 :fMCInfo.fPiZeroDecay : Int_t                                       *
+*Entries :        1 : Total  Size=        643 bytes  File Size  =         94 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   14 :fMCInfo.fBRPi0D : Double_t                                         *
+*Entries :        1 : Total  Size=        622 bytes  File Size  =         93 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   15 :fMCInfo.fDecayUniform : Int_t                                      *
+*Entries :        1 : Total  Size=        648 bytes  File Size  =         95 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   16 :fMCInfo.fDecayGeneratorMode : Int_t                                *
+*Entries :        1 : Total  Size=        678 bytes  File Size  =        101 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   17 :fMCInfo.fZDecayMin : Double_t                                      *
+*Entries :        1 : Total  Size=        637 bytes  File Size  =         96 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   18 :fMCInfo.fZDecayMax : Double_t                                      *
+*Entries :        1 : Total  Size=        637 bytes  File Size  =         96 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   19 :fMCInfo.fCheckPoints : Int_t fMCInfo.fCheckPoints_                 *
+*Entries :        1 : Total  Size=       5782 bytes  File Size  =        106 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   20 :fMCInfo.fCheckPoints.fUniqueID :                                   *
+*         | UInt_t fUniqueID[fMCInfo.fCheckPoints_]                          *
+*Entries :        1 : Total  Size=        807 bytes  File Size  =        112 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   21 :fMCInfo.fCheckPoints.fBits : UInt_t fBits[fMCInfo.fCheckPoints_]   *
+*Entries :        1 : Total  Size=        787 bytes  File Size  =        108 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   22 :fMCInfo.fCheckPoints.fCheckPointName :                             *
+*         | TString fCheckPointName[fMCInfo.fCheckPoints_]                   *
+*Entries :        1 : Total  Size=        837 bytes  File Size  =        118 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   23 :fMCInfo.fCheckPoints.fZPos : Double_t fZPos[fMCInfo.fCheckPoints_] *
+*Entries :        1 : Total  Size=        787 bytes  File Size  =        108 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   24 :fMCInfo.fCheckPoints.fZMax : Double_t fZMax[fMCInfo.fCheckPoints_] *
+*Entries :        1 : Total  Size=        787 bytes  File Size  =        108 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   25 :fMCInfo.fCheckPoints.fPreStepName :                                *
+*         | TString fPreStepName[fMCInfo.fCheckPoints_]                      *
+*Entries :        1 : Total  Size=        822 bytes  File Size  =        115 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   26 :fMCInfo.fCheckPoints.fPostStepName :                               *
+*         | TString fPostStepName[fMCInfo.fCheckPoints_]                     *
+*Entries :        1 : Total  Size=        827 bytes  File Size  =        116 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   27 :fMCInfo.fExoticParticleMass : vector<double>                       *
+*Entries :        1 : Total  Size=        720 bytes  File Size  =        133 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.08     *
+*............................................................................*
+*Br   28 :fMCInfo.fExoticParticleDecayMode : vector<int>                     *
+*Entries :        1 : Total  Size=        733 bytes  File Size  =        136 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   29 :fMCInfo.fExoticParticleLifetime : vector<double>                   *
+*Entries :        1 : Total  Size=        740 bytes  File Size  =        137 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.07     *
+*............................................................................*
+*Br   30 :fMCInfo.fFileName : vector<TString>                                *
+*Entries :        1 : Total  Size=        646 bytes  File Size  =        109 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   31 :fMCInfo.fRunNumber : vector<int>                                   *
+*Entries :        1 : Total  Size=        651 bytes  File Size  =        110 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   32 :fMCInfo.fRandomSeed : vector<int>                                  *
+*Entries :        1 : Total  Size=        656 bytes  File Size  =        111 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   33 :fMCInfo.fNEvents : vector<int>                                     *
+*Entries :        1 : Total  Size=        641 bytes  File Size  =        108 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   34 :fMCInfo.fBeamlinemap : Int_t fMCInfo.fBeamlinemap_                 *
+*Entries :        1 : Total  Size=       7685 bytes  File Size  =        106 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   35 :fMCInfo.fBeamlinemap.fUniqueID :                                   *
+*         | UInt_t fUniqueID[fMCInfo.fBeamlinemap_]                          *
+*Entries :        1 : Total  Size=        807 bytes  File Size  =        112 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   36 :fMCInfo.fBeamlinemap.fBits : UInt_t fBits[fMCInfo.fBeamlinemap_]   *
+*Entries :        1 : Total  Size=        787 bytes  File Size  =        108 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   37 :fMCInfo.fBeamlinemap.fDetectorName :                               *
+*         | TString fDetectorName[fMCInfo.fBeamlinemap_]                     *
+*Entries :        1 : Total  Size=        827 bytes  File Size  =        116 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   38 :fMCInfo.fBeamlinemap.fZpos : Double_t fZpos[fMCInfo.fBeamlinemap_] *
+*Entries :        1 : Total  Size=        787 bytes  File Size  =        108 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   39 :fMCInfo.fBeamlinemap.fXpos : Double_t fXpos[fMCInfo.fBeamlinemap_] *
+*Entries :        1 : Total  Size=        787 bytes  File Size  =        108 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   40 :fMCInfo.fBeamlinemap.fYpos : Double_t fYpos[fMCInfo.fBeamlinemap_] *
+*Entries :        1 : Total  Size=        787 bytes  File Size  =        108 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   41 :fMCInfo.fBeamlinemap.fthetaZ :                                     *
+*         | Double_t fthetaZ[fMCInfo.fBeamlinemap_]                          *
+*Entries :        1 : Total  Size=        797 bytes  File Size  =        110 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   42 :fMCInfo.fBeamlinemap.fthetaX :                                     *
+*         | Double_t fthetaX[fMCInfo.fBeamlinemap_]                          *
+*Entries :        1 : Total  Size=        797 bytes  File Size  =        110 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   43 :fMCInfo.fBeamlinemap.fthetaY :                                     *
+*         | Double_t fthetaY[fMCInfo.fBeamlinemap_]                          *
+*Entries :        1 : Total  Size=        797 bytes  File Size  =        110 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   44 :fMCInfo.fBeamlinemap.fDetectorParameters :                         *
+*         | vector<double> fDetectorParameters[fMCInfo.fBeamlinemap_]        *
+*Entries :        1 : Total  Size=        863 bytes  File Size  =        128 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   45 :fMCInfo.fFastSimulationMode : Int_t                                *
+*Entries :        1 : Total  Size=        678 bytes  File Size  =        101 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   46 :fMCInfo.fBrPie2 : Double_t                                         *
+*Entries :        1 : Total  Size=        622 bytes  File Size  =         93 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   47 :fMCInfo.fForcedPionDecay : Int_t                                   *
+*Entries :        1 : Total  Size=        663 bytes  File Size  =         98 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   48 :fRecoInfo :                                                        *
+*Entries :        1 : Total  Size=      11350 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   49 :fRecoInfo.fUniqueID : UInt_t                                       *
+*Entries :        1 : Total  Size=        638 bytes  File Size  =         93 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   50 :fRecoInfo.fBits : UInt_t                                           *
+*Entries :        1 : Total  Size=        630 bytes  File Size  =        101 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   51 :fRecoInfo.fRevision : TString                                      *
+*Entries :        1 : Total  Size=        653 bytes  File Size  =        108 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   52 :fRecoInfo.fNReadEvents : UInt_t                                    *
+*Entries :        1 : Total  Size=        653 bytes  File Size  =         96 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   53 :fRecoInfo.fNProcessedEvents : UInt_t                               *
+*Entries :        1 : Total  Size=        678 bytes  File Size  =        101 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   54 :fRecoInfo.fNSkippedEvents : UInt_t                                 *
+*Entries :        1 : Total  Size=        668 bytes  File Size  =         99 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   55 :fRecoInfo.fNCriticalEvents : UInt_t                                *
+*Entries :        1 : Total  Size=        673 bytes  File Size  =        100 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   56 :fRecoInfo.fNPhysicsTriggerEvents : UInt_t                          *
+*Entries :        1 : Total  Size=        703 bytes  File Size  =        106 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   57 :fRecoInfo.fNControlTriggerEvents : UInt_t                          *
+*Entries :        1 : Total  Size=        703 bytes  File Size  =        106 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   58 :fRecoInfo.fNPeriodicTriggerEvents : UInt_t                         *
+*Entries :        1 : Total  Size=        708 bytes  File Size  =        107 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   59 :fRecoInfo.fNSpecialTriggerEvents : UInt_t                          *
+*Entries :        1 : Total  Size=        703 bytes  File Size  =        106 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   60 :fRecoInfo.fKaonRate : Double_t                                     *
+*Entries :        1 : Total  Size=        642 bytes  File Size  =         97 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   61 :fRecoInfo.fKaonRateError : Double_t                                *
+*Entries :        1 : Total  Size=        667 bytes  File Size  =        102 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   62 :fRecoInfo.fRunID : vector<unsigned int>                            *
+*Entries :        1 : Total  Size=        645 bytes  File Size  =        112 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   63 :fRecoInfo.fBurstID : vector<unsigned int>                          *
+*Entries :        1 : Total  Size=        655 bytes  File Size  =        114 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   64 :fRecoInfo.fBurstTime : vector<unsigned int>                        *
+*Entries :        1 : Total  Size=        665 bytes  File Size  =        116 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   65 :fRecoInfo.fChokeONTime : Double_t                                  *
+*Entries :        1 : Total  Size=        657 bytes  File Size  =        100 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   66 :fAnalysisInfo :                                                    *
+*Entries :        1 : Total  Size=       8277 bytes  One basket in memory    *
+*Baskets :        0 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   67 :fAnalysisInfo.fUniqueID : UInt_t                                   *
+*Entries :        1 : Total  Size=        658 bytes  File Size  =         97 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   68 :fAnalysisInfo.fBits : UInt_t                                       *
+*Entries :        1 : Total  Size=        650 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   69 :fAnalysisInfo.fAnalyzerList : Int_t fAnalysisInfo.fAnalyzerList_   *
+*Entries :        1 : Total  Size=       4831 bytes  File Size  =        113 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   70 :fAnalysisInfo.fAnalyzerList.fUniqueID :                            *
+*         | UInt_t fUniqueID[fAnalysisInfo.fAnalyzerList_]                   *
+*Entries :        1 : Total  Size=        928 bytes  File Size  =        134 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.43     *
+*............................................................................*
+*Br   71 :fAnalysisInfo.fAnalyzerList.fBits :                                *
+*         | UInt_t fBits[fAnalysisInfo.fAnalyzerList_]                       *
+*Entries :        1 : Total  Size=        908 bytes  File Size  =        132 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.42     *
+*............................................................................*
+*Br   72 :fAnalysisInfo.fAnalyzerList.fAnalyzerName.fUniqueID :              *
+*         | UInt_t fUniqueID[fAnalysisInfo.fAnalyzerList_]                   *
+*Entries :        1 : Total  Size=        970 bytes  File Size  =        148 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.39     *
+*............................................................................*
+*Br   73 :fAnalysisInfo.fAnalyzerList.fAnalyzerName.fBits :                  *
+*         | UInt_t fBits[fAnalysisInfo.fAnalyzerList_]                       *
+*Entries :        1 : Total  Size=        950 bytes  File Size  =        146 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.38     *
+*............................................................................*
+*Br   74 :fAnalysisInfo.fAnalyzerList.fAnalyzerName.fString :                *
+*         | TString fString[fAnalysisInfo.fAnalyzerList_]                    *
+*Entries :        1 : Total  Size=       1401 bytes  File Size  =        359 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.79     *
+*............................................................................*
+*Br   75 :fAnalysisInfo.fStreamList : vector<TString>                        *
+*Entries :        1 : Total  Size=        694 bytes  File Size  =        125 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   76 :fAnalysisInfo.fRevisionList : vector<TString>                      *
+*Entries :        1 : Total  Size=        702 bytes  File Size  =        125 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   77 :fAnalysisInfo.fInputFileList : vector<TString>                     *
+*Entries :        1 : Total  Size=        869 bytes  File Size  =        244 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.18     *
+*............................................................................*

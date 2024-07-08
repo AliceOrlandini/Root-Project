@@ -1,0 +1,19 @@
+POSSIBILE ESERCIZIO E SOLUZIONE
+-------------------------------
+L'esercizio da svolgere potrebbe essere: sapendo che i due fotoni del LYSO distano 105 keV e che il primo bin acquisito è il bin 15, calcolare l'energia dei due fotoni emessi.
+
+Si hanno a disposizione due set di dati in vari formati: per questo esempio si utilizzeranno i file csv in cui i valori numerici nel file sono separati da virgola
+e in cui c'è una prima riga da saltare in ogni file. I dati si riferiscono ad un'acquisizione di 16h di "segnale", ovvero in presenza della sorgente di LYSO, e 6h di
+fondo, ovvero acquisizione senza la sorgente. 
+
+La macro root da scrivere deve contenere le seguenti parti:
+i) lettura dei file
+ii) definizione e riempimento degli istogrammi
+iii) normalizzazione degli istogrammi di fondo e segnale (normalizzando alla prima parte degli istogrammi dove non c'è il segnale)
+iv) sottrazione del fondo
+v) fit delle due gaussiane
+vi) estrazione del fattore di calibrazione
+vii) plot del risultato con asse orizzontale in keV
+viii) salvataggio dell'istogramma su file di uscita
+
+Una possibile soluzione è nella macro read_file_and_draw.C (che si può runnare con root -l read_file_and_draw.C)

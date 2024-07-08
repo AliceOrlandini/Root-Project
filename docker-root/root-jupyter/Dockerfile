@@ -14,7 +14,8 @@ USER jupyteruser
 WORKDIR /home/jupyteruser
 
 # Copia il notebook di esempio (può essere sostituito con il proprio codice/notebook)
-COPY example-notebook.ipynb /home/jupyteruser/notebooks/
+# COPY example-notebook.ipynb /home/jupyteruser/notebooks/
+COPY . /home/jupyteruser/notebooks/
 
 # Espone la porta 8888 per Jupyter
 EXPOSE 8888
