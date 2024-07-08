@@ -46,6 +46,6 @@ docker build -t root-python .
 
 A questo punto, è possibile lanciare il container con il comando:
 ```console
-docker run --rm -it -v $(pwd):/usr/src/app -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=host.docker.internal:0 root-python bash
+docker run --rm -it -v $(pwd):/usr/src/app -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=host.docker.internal:0 root-python
 ```
 Il file che verrà eseguito sarà `main.py`.
